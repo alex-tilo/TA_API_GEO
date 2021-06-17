@@ -1,0 +1,5 @@
+[
+  {"name": "Passed", "matchedStatuses": ["passed"]},
+  {"name": "Failed", "matchedStatuses": ["failed"]},
+  {"name": "Ignored", "matchedStatuses": ["skipped"]}
+]

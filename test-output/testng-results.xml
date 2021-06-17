@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4277" started-at="2021-06-16T23:57:08 PDT" finished-at="2021-06-16T23:57:12 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4277" started-at="2021-06-16T23:57:08 PDT" finished-at="2021-06-16T23:57:12 PDT">
+      <class name="core.testGeoPluginJSON">
+        <test-method status="PASS" signature="geoPluginJSON()[pri:1, instance:core.testGeoPluginJSON@1eba372c]" name="geoPluginJSON" duration-ms="4135" started-at="2021-06-16T23:57:08 PDT" description="GEO Validation JSON" finished-at="2021-06-16T23:57:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geoPluginJSON -->
+      </class> <!-- core.testGeoPluginJSON -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

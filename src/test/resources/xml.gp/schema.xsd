@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="geoPlugin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="geoplugin_request"      type="xs:string" />
+        <xs:element name="geoplugin_status"       type="xs:unsignedByte" />
+        <xs:element name="geoplugin_delay"        type="xs:string" />
+        <xs:element name="geoplugin_credit"       type="xs:string" />
+        <xs:element name="geoplugin_city"         type="xs:string" />
+        <xs:element name="geoplugin_region"       type="xs:string" />
+        <xs:element name="geoplugin_regionCode"   type="xs:string" />
+        <xs:element name="geoplugin_regionName"   type="xs:string" />
+        <xs:element name="geoplugin_areaCode" />
+        <xs:element name="geoplugin_dmaCode"      type="xs:unsignedShort" />
+        <xs:element name="geoplugin_countryCode"  type="xs:string" />
+        <xs:element name="geoplugin_countryName"  type="xs:string" />
+        <xs:element name="geoplugin_inEU"         type="xs:unsignedByte" />
+        <xs:element name="geoplugin_euVATrate" />
+        <xs:element name="geoplugin_continentCode" type="xs:string" />
+        <xs:element name="geoplugin_continentName" type="xs:string" />
+        <xs:element name="geoplugin_latitude"     type="xs:decimal" />
+        <xs:element name="geoplugin_longitude"    type="xs:decimal" />
+        <xs:element name="geoplugin_locationAccuracyRadius" type="xs:unsignedByte" />
+        <xs:element name="geoplugin_timezone"     type="xs:string" />
+        <xs:element name="geoplugin_currencyCode" type="xs:string" />
+        <xs:element name="geoplugin_currencySymbol" type="xs:string" />
+        <xs:element name="geoplugin_currencySymbol_UTF8" type="xs:string" />
+        <xs:element name="geoplugin_currencyConverter" type="xs:unsignedByte" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
