@@ -53,6 +53,7 @@ public class testGeoPluginJSON {
 	    try {
 		response = given()
 				.headers(u.readJSONFileAsMap(api, "header"))
+				.queryParam("ip", "68.21.163.43")
 				.filter(new AllureRestAssured())
 		
 		.when()
